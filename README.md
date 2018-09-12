@@ -8,9 +8,12 @@ http://www.wasmrocks.com/
 
 Firefox Nightly
 http://kripken.github.io/emscripten-site/docs/getting_started/downloads.html
+https://medium.zenika.com/go-1-11-webassembly-for-the-gophers-ae4bb8b1ee03
 ./emsdk activate latest
 source ~/dev/emsdk/emsdk_env.sh
 -g generates text
+
+GOOS=js GOARCH=wasm go build -o test.wasm hello.go
 
 * [WebAssembly GitHub](https://github.com/WebAssembly)
 * [emscripten](https://github.com/kripken/emscripten)
