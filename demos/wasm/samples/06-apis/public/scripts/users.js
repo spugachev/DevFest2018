@@ -5,7 +5,7 @@ if (navigator.credentials && navigator.credentials.preventSilentAccess) {
           id:       'spugachev@gmail.com',
           name:     'Sergey Pugachev',
           password: 'Hello!',
-          iconURL:  'https://lh3.googleusercontent.com/-KFIgYAXzcl8/AAAAAAAAAAI/AAAAAAAAAAA/APJypA1dbRV9tq9gGjj8-2Wh65JIEeV-Dg/mo/photo.jpg?sz=64'
+          iconURL:  'https://avatars1.githubusercontent.com/u/1313155?s=40&v=4'
         });
   
         navigator.credentials.store(cred);
